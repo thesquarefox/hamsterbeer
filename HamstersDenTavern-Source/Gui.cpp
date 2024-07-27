@@ -48,7 +48,7 @@ void Hamster::CGUI::CreateMenue()
 	irr::gui::IGUIImage* background = GUIEnvironment->addImage(irr::core::rect<irr::s32>(0,0,1023,767), 0);
 	background->setImage(TextureBackground);
 
-	GUIEnvironment->addStaticText(L"You are in the tavern of the oupost Hamsters Den.", irr::core::rect<irr::s32>(xOffset, yOffset + 0, 999, 999), false, false, 0);
+	GUIEnvironment->addStaticText(L"You are in the tavern of the outpost Hamsters Den.", irr::core::rect<irr::s32>(xOffset, yOffset + 0, 999, 999), false, false, 0);
 	GUIEnvironment->addStaticText(L"The barkeeper (a mutated hamster with big big teeth) says to you:", irr::core::rect<irr::s32>(xOffset, yOffset + 40, 999, 999), false, false, 0);
 	GUIEnvironment->addStaticText(L"'Welcome my friend, stay a while and drink!'", irr::core::rect<irr::s32>(xOffset, yOffset + 80, 999, 999), false, false, 0);
 	GUIEnvironment->addStaticText(L"He puts a precious beer onto the table in front of you.", irr::core::rect<irr::s32>(xOffset, yOffset + 120, 999, 999), false, false, 0);
